@@ -3,7 +3,6 @@
 
 @import "main";
 
-/* 카드 CSS */
 .project-card {
   display: flex;
   gap: 32px;
@@ -17,7 +16,6 @@
   margin: 28px 0;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
 }
-
 
 .project-grid {
   display: grid;
