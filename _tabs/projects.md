@@ -171,7 +171,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2019.09<br>~2021.05</div>
   <div class="hover-card">
-    <img src="/assets/img/project/ewp.png">
+    <img src="/assets/img/project/ewp.png" alt="동서발전">
     <p>동서발전 임시직</p>
   </div>
 </div>
@@ -180,7 +180,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2021.05<br>~2021.10</div>
     <div class="hover-card">
-    <img src="/assets/img/project/ewp.png">
+    <img src="/assets/img/project/ewp.png" alt="동서발전">
     <p>DW사업 유지보수</p>
   </div>
 </div>
@@ -189,7 +189,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2021.10<br>~2022.01</div>
     <div class="hover-card">
-    <img src="/assets/img/project/kcg.png">
+    <img src="/assets/img/project/kcg.png" alt="해양경찰청">
     <p>빅데이터통합저장소 2단계 구축</p>
   </div>
 </div>
@@ -198,7 +198,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2022.01<br>~2022.04</div>
     <div class="hover-card">
-    <img src="/assets/img/project/ewp.png">
+    <img src="/assets/img/project/ewp.png" alt="동서발전">
     <p>지능형 디지털 발전소 플랫폼 구축</p>
   </div>
 </div>
@@ -207,7 +207,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2022.05<br>~2022.12</div>
     <div class="hover-card">
-    <img src="/assets/img/project/kcg.png">
+    <img src="/assets/img/project/kcg.png" alt="해양경찰청">
     <p>데이터 통합저장소 3단계 구축</p>
   </div>
 </div>
@@ -215,7 +215,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2023.02<br>~2023.10</div>
     <div class="hover-card">
-    <img src="/assets/img/project/kwater.png">
+    <img src="/assets/img/project/kwater.png" alt="수자원공사">
     <p>스마트 정수장 구축 사업</p>
   </div>
 </div>
@@ -224,7 +224,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2023.11<br>~2025.03</div>
     <div class="hover-card">
-    <img src="/assets/img/project/busan.png">
+    <img src="/assets/img/project/busan.png" alt="부산시청">
     <p>부산형 데이터 통합플랫폼 구축</p>
   </div>
 </div>
@@ -233,7 +233,7 @@ order: 5
     <div class="timeline-dot"></div>
     <div class="timeline-label">2025.08<br>~2026.04</div>
     <div class="hover-card">
-    <img src="/assets/img/project/gyeonggi.png">
+    <img src="/assets/img/project/gyeonggi.png" alt="경기도교육청">
     <p>경기 교육 디지털플랫폼 구축</p>
   </div>
 </div>
