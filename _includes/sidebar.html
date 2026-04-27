@@ -51,23 +51,32 @@
   var site = "beavernee";
   var path = encodeURIComponent("/");
 
+  function formatDateKST(date) {
+    var kst = new Date(date.getTime() + 9 * 60 * 60 * 1000);
+    return kst.toISOString().split("T")[0];
+  }
+
   fetch("https://" + site + ".goatcounter.com/counter/" + path + ".json")
     .then(function (res) { return res.json(); })
     .then(function (data) {
       document.getElementById("total-visitor-count").innerText =
         data.count_unique || data.count || "-";
-    })
-    .catch(function (e) {
-      console.error("Total visitor count error:", e);
     });
 
-  var today = new Date().toISOString().split("T")[0];
+  var now = new Date();
+  var today = formatDateKST(now);
 
-  fetch("https://" + site + ".goatcounter.com/counter/" + path + ".json?start=" + today + "&end=" + today)
+  var tomorrowObj = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+  var tomorrow = formatDateKST(tomorrowObj);
+
+  fetch(
+    "https://" + site + ".goatcounter.com/counter/" + path +
+    ".json?start=" + today + "&end=" + tomorrow
+  )
     .then(function (res) { return res.json(); })
     .then(function (data) {
       document.getElementById("today-visitor-count").innerText =
-        data.count_unique || data.count || "-";
+        data.count_unique || data.count || "0";
     })
     .catch(function (e) {
       console.error("Today visitor count error:", e);
