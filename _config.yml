@@ -25,7 +25,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://learning-beaver.github.io/"
 
 github:
   username: Learning-Beaver # change to your GitHub username
@@ -176,7 +176,7 @@ collections:
 
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      # path: "" # An empty string here means all files in the project
       type: posts
     values:
       layout: post
