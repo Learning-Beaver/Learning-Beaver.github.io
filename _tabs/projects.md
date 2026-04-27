@@ -7,10 +7,13 @@ order: 2
 <style>
 .project-grid {
   display: grid !important;
-  grid-template-columns: repeat(3, minmax(300px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
   gap: 32px !important;
   margin-top: 30px !important;
+  width: 100%;
+  max-width: 980px;
 }
+
 
 .project-box {
   cursor: pointer !important;
@@ -79,8 +82,11 @@ order: 2
   position: relative;
   height: 120px;
   margin: 30px 0 60px;
-  width: calc((300px * 3) + (32px * 2));
+  width: 100%;
+  max-width: 980px;
+  overflow: visible;
 }
+
 
 .timeline-track {
   position: absolute;
