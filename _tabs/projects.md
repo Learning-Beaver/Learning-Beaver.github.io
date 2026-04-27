@@ -3,6 +3,7 @@ title: Projects
 icon: fas fa-laptop-code
 order: 5
 ---
+
 <style>
 .project-grid {
   display: grid !important;
@@ -74,7 +75,173 @@ order: 5
     grid-template-columns: 1fr !important;
   }
 }
+/* test */
+.timeline {
+  position: relative;
+  height: 120px;
+  margin: 30px 0 60px;
+  width: calc((300px * 3) + (32px * 2));
+}
+
+.timeline-track {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #4b5563;
+  border-radius: 999px;
+}
+
+.timeline-track::after {
+  content: "";
+  position: absolute;
+  right: -14px;
+  top: -8px;
+  border-left: 18px solid #4b5563;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.timeline-point {
+  position: absolute;
+  top: 43%;
+  transform: translateX(-60%);
+  text-align: center;
+}
+
+.timeline-dot {
+  width: 22px;
+  height: 22px;
+  background: #6b7280;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.timeline-label {
+  margin-top: 18px;
+  background: #374151;
+  color: #e5e7eb;
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.hover-card {
+  display: none;
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  background: #111827;
+  border: 1px solid #2f3b52;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+  z-index: 10;
+}
+
+.hover-card img {
+  width: 100%;
+  height: 90px;
+  object-fit: contain;
+  background: white;
+  border-radius: 8px;
+}
+
+.hover-card p {
+  margin: 10px 0 0;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+}
+
+.timeline-point:hover .hover-card {
+  display: block;
+}
+
+
 </style>
+
+
+<!-- Timeline -->
+<div class="timeline">
+  <div class="timeline-track"></div>
+
+  <div class="timeline-point" style="left: 8%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2019.09<br>~2021.05</div>
+  <div class="hover-card">
+    <img src="/assets/img/project/ewp.png">
+    <p>동서발전 임시직</p>
+  </div>
+</div>
+
+  <div class="timeline-point" style="left: 20%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2021.05<br>~2021.10</div>
+    <div class="hover-card">
+    <img src="/assets/img/project/ewp.png">
+    <p>DW사업 유지보수</p>
+  </div>
+</div>
+
+  <div class="timeline-point" style="left: 32%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2021.10<br>~2022.01</div>
+    <div class="hover-card">
+    <img src="/assets/img/project/kcg.png">
+    <p>빅데이터통합저장소 2단계 구축</p>
+  </div>
+</div>
+
+  <div class="timeline-point" style="left: 44%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2022.01<br>~2022.04</div>
+    <div class="hover-card">
+    <img src="/assets/img/project/ewp.png">
+    <p>지능형 디지털 발전소 플랫폼 구축</p>
+  </div>
+</div>
+
+  <div class="timeline-point" style="left: 56%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2022.05<br>~2022.12</div>
+    <div class="hover-card">
+    <img src="/assets/img/project/kcg.png">
+    <p>데이터 통합저장소 3단계 구축</p>
+  </div>
+</div>
+  <div class="timeline-point" style="left: 68%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2023.02<br>~2023.10</div>
+    <div class="hover-card">
+    <img src="/assets/img/project/kwater.png">
+    <p>스마트 정수장 구축 사업</p>
+  </div>
+</div>
+
+  <div class="timeline-point" style="left: 80%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2023.11<br>~2025.03</div>
+    <div class="hover-card">
+    <img src="/assets/img/project/busan.png">
+    <p>부산형 데이터 통합플랫폼 구축</p>
+  </div>
+</div>
+
+  <div class="timeline-point" style="left: 92%;">
+    <div class="timeline-dot"></div>
+    <div class="timeline-label">2025.08<br>~2026.04</div>
+    <div class="hover-card">
+    <img src="/assets/img/project/gyeonggi.png">
+    <p>경기 교육 디지털플랫폼 구축</p>
+  </div>
+</div>
+</div>
+<!-- Timeline -->
+
 
 <div class="project-grid">
 
