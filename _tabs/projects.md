@@ -75,7 +75,6 @@ order: 5
     grid-template-columns: 1fr !important;
   }
 }
-/* test */
 .timeline {
   position: relative;
   height: 120px;
@@ -165,7 +164,6 @@ order: 5
 </style>
 
 
-<!-- Timeline -->
 <div class="timeline">
   <div class="timeline-track"></div>
 
@@ -240,7 +238,6 @@ order: 5
   </div>
 </div>
 </div>
-<!-- Timeline -->
 
 
 <div class="project-grid">
