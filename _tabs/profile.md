@@ -1,6 +1,7 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+title: Profile
+icon: fas fa-id-card
 order: 1
 ---
 
