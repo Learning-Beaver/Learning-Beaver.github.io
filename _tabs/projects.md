@@ -160,14 +160,52 @@ order: 5
   display: block;
 }
 
+.company-marker {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 13px;
+  height: 13px;
+  transform: translateX(-50%) rotate(45deg);
+  border-radius: 2px;
+  border: 1px solid rgba(255,255,255,0.35);
+  z-index: 5;
+}
 
+
+.company-marker.ewp { background: #f59e0b; }
+
+.company-marker.penta {
+  background: #3b82f6;
+}
+
+.timeline-label.insa {
+  margin-top: -55px;
+  background: #374151;
+  color: #e5e7eb;
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
 </style>
 
-
+<!-- Timeline Start -->
 <div class="timeline">
   <div class="timeline-track"></div>
 
-  <div class="timeline-point" style="left: 8%;">
+<!-- Timeline insa point -->
+<div class="timeline-point" style="left: 4%;">
+    <div class="company-marker ewp"></div>
+    <div class="timeline-label insa">2019.09<br>입사(동서발전)</div>
+</div>
+<div class="timeline-point" style="left: 24%;">
+    <div class="company-marker ewp"></div>
+    <div class="timeline-label insa">2021.05<br>입사(펜타시스템)</div>
+</div>
+
+<!-- Timeline project -->
+  <div class="timeline-point" style="left: 14%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2019.09<br>~2021.05</div>
   <div class="hover-card">
@@ -176,7 +214,7 @@ order: 5
   </div>
 </div>
 
-  <div class="timeline-point" style="left: 20%;">
+  <div class="timeline-point" style="left: 34%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2021.05<br>~2021.10</div>
     <div class="hover-card">
@@ -185,7 +223,7 @@ order: 5
   </div>
 </div>
 
-  <div class="timeline-point" style="left: 32%;">
+  <div class="timeline-point" style="left: 44%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2021.10<br>~2022.01</div>
     <div class="hover-card">
@@ -194,7 +232,7 @@ order: 5
   </div>
 </div>
 
-  <div class="timeline-point" style="left: 44%;">
+  <div class="timeline-point" style="left: 54%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2022.01<br>~2022.04</div>
     <div class="hover-card">
@@ -203,7 +241,7 @@ order: 5
   </div>
 </div>
 
-  <div class="timeline-point" style="left: 56%;">
+  <div class="timeline-point" style="left: 64%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2022.05<br>~2022.12</div>
     <div class="hover-card">
@@ -211,7 +249,7 @@ order: 5
     <p>데이터 통합저장소 3단계 구축</p>
   </div>
 </div>
-  <div class="timeline-point" style="left: 68%;">
+  <div class="timeline-point" style="left: 74%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2023.02<br>~2023.10</div>
     <div class="hover-card">
@@ -220,7 +258,7 @@ order: 5
   </div>
 </div>
 
-  <div class="timeline-point" style="left: 80%;">
+  <div class="timeline-point" style="left: 84%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2023.11<br>~2025.03</div>
     <div class="hover-card">
@@ -229,7 +267,7 @@ order: 5
   </div>
 </div>
 
-  <div class="timeline-point" style="left: 92%;">
+  <div class="timeline-point" style="left: 94%;">
     <div class="timeline-dot"></div>
     <div class="timeline-label">2025.08<br>~2026.04</div>
     <div class="hover-card">
