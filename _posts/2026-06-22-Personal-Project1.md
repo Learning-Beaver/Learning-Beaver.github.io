@@ -1,6 +1,6 @@
 ---
 title: "Object Storage 기반 데이터 플랫폼 구축기 #1 - 프로젝트를 시작하며"
-date: 2026-06-22 23:55:00 +0900
+date: 2026-06-22 23:45:00 +0900
 categories: [Personal-Project]
 tags: [MinIO, Iceberg, Hive, Hue, Airflow, NiFi, Lakehouse]
 ---
