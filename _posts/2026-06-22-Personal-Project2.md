@@ -1,7 +1,7 @@
 ---
 title: "Object Storage 기반 데이터 플랫폼 구축기 #2 - 왜 MinIO와 Iceberg를 선택했을까?"
 date: 2026-06-23 23:05:00 +0900
-categories: [Project]
+categories: [Personal-Project]
 tags: [MinIO, Iceberg, Lakehouse, ObjectStorage]
 ---
 
